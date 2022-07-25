@@ -29,7 +29,7 @@ namespace CompanyEmployeesTestTask
                     $"or enter '{COMMAND_SUM}' to calculate totall syalary sum of all the employees in the company.");
                 Console.WriteLine($"Enter '{COMMAND_EXIT}' for exit from the app.\n\n");
 
-                var command = Console.ReadLine();
+                var command = Console.ReadLine().Trim();
 
                 switch (command)
                 {
