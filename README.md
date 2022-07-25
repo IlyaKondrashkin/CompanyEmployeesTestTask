@@ -13,7 +13,7 @@ IEmployee interface represents an employee API. It provides common employee's pr
 
 IManager interface extands IEmployee API for employees who have suborinates. IManager provides property Employees which contains all the directly subordinates (The first level of subordinates). In addition, IManger provides some methods to manage the subordinates. There are 2 methods to add and remove a subordinate and 2 methods GetFirstLevelSubordinatesSalarySumm and GetAllLevelsSubordinatesSalarySumm to calculate sum of subordinates' salaries.
 
-ICompany interface provides public API for a company. It contains Employees property which provides all the employees of the company as a flat IEnumerable. Also ICompany provides some methods to calculate salary of a certain employee, sum of salaries of all the employess and to check if an emploee did work for gthe company on a certain date.
+ICompany interface provides public API for a company. It contains Employees property which provides all the employees of the company as a flat IEnumerable. Also ICompany provides some methods to calculate salary of a certain employee, sum of salaries of all the employess and to check if an emploee did work for the company on a certain date.
 
 IEmployeesProvider interface just provides a method to get the employees for the company as a hierarchical tree.
 
